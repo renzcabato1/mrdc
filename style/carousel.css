@@ -1,0 +1,25 @@
+
+.image_carousel {
+	width: 630px;
+}
+
+
+
+div.pagination {
+	padding: 0px 40px 0 0;
+	text-align: center;
+	height: 15px;
+}
+div.pagination a {
+	background: url(../img/dot.png) 0 0px no-repeat transparent;
+	width: 7px;
+	height: 7px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+div.pagination a.selected {
+	background: url(../img/dot2.png) 0 0px no-repeat transparent;
+}
+div.pagination a span {
+	display: none;
+}
